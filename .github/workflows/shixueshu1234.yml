@@ -1,0 +1,24 @@
+name: shixueshu1234
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '50 5/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: shixueshu1234
+        env:
+          diot3851: ${{ secrets.diot3851 }}
+        run: |
+          echo $diot3851 | jq -r .xlcfj55227 | /bin/bash
+          echo $b1345 | jq -r .kjh343 | /bin/bash
+          echo $ng2710 | jq -r .xs56 | /bin/bash
+          echo $qqlj1 | jq -r .spm204 | /bin/bash
+          echo $psm533 | jq -r .xke84551 | /bin/bash
+          echo $wxv32592 | jq -r .plhx6475 | /bin/bash
+          echo $i5 | jq -r .u71 | /bin/bash
+
